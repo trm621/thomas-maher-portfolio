@@ -5,15 +5,12 @@
   ## Table of Contents
   - <a href="#usage">Usage</a>
   - <a href="#screenshot">Screenshot</a>
-  - <a href="#contributing">Contributing</a>
   - <a href="#Link">Link</a>
   - <a href="#questions">Questions</a>
   ## Usage
   ### Visit the link to the deployed site below.
   ## Screenshot
   ### ![Imgur](https://imgur.com/Gdk2aCG.png)
-  ## Contributing
-  ### Thomas Maher
   ## Link
   ### https://pure-sierra-64144.herokuapp.com/
   ## Questions

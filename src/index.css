@@ -2,15 +2,3 @@ body {
   font-family: Roboto, Arial;
   margin: 0;
 }
-
-li {
-  font-size: 20px;
-  padding: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-li:hover {
-  color: red;
-}
-

@@ -32,7 +32,13 @@ img {
 p,
 .linkText {
   font-family: "RoboFont";
+  color: white;
   list-style: none;
   width: 60%;
   font-size: 25px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }

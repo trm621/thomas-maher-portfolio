@@ -1,27 +1,37 @@
-import respdf from '../../assets/ThomasMaherResume.pdf'
+import respdf from "../../assets/ThomasMaherResume.pdf";
+import "./ResumePage.css";
+
+const skills = [
+  "JavaScript",
+  "Angular",
+  "Python",
+  "Ember",
+  "React",
+  "Third-Party/Server-Side APIs",
+  "Object-Oriented Programming",
+  "MongoDB",
+  "Node.js",
+  "MySQL",
+  "NoSQL",
+];
 
 function Resume() {
-    return (
-        <div>
-            <ol className="proficiencies">
-                Technical Skills:
-                <h6 className="technology">HTML</h6>
-                <h6 className="technology">CSS</h6>
-                <h6 className="technology">JavaScript</h6>
-                <h6 className="technology">Python</h6>
-                <h6 className="technology">Third-Party/Server-Side APIs</h6>
-                <h6 className="technology">Object Oriented Programming</h6>
-                <h6 className="technology">MongoDB</h6>
-                <h6 className="technology">Node.js</h6>
-                <h6 className="technology">React</h6>
-                <h6 className="technology">MySQL</h6>
-                <h6 className="technology">NoSQL</h6>
-
-            </ol>
-            <h1 className="resume"><a href= {respdf} target="_blank" rel="noreferrer"> Click to download my resume!</a></h1>
-        </div>
-    )
-};
-
+  return (
+    <div>
+      <h1 className="welcomeAbout">Technical Skills</h1>
+      <ol className="skillList">
+        {skills.map((skill) => (
+          <li>{skill}</li>
+        ))}
+      </ol>
+      <h1 className="resume">
+        <a href={respdf} target="_blank" rel="noreferrer">
+          {" "}
+          Click here to download my resume!
+        </a>
+      </h1>
+    </div>
+  );
+}
 
 export default Resume;

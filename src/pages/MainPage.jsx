@@ -48,18 +48,15 @@ export function MainPage() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <>
       <Header />
-      <title>Thomas Maher Portfolio</title>
+      <title>Thomas Maher's Portfolio</title>
       <Navigation
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
       />
 
       <div className="home-page">

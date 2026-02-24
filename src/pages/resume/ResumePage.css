@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "RoboFont";
+  src: url("../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.skillList {
+  color: white;
+  text-align: center;
+  font-family: "RoboFont";
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.resume {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: "RoboFont";
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.resume a:hover {
+  color: red;
+}
