@@ -11,7 +11,7 @@
   ## Usage
   ### Visit the link to the deployed site below.
   ## Screenshot
-  ### ![Imgur](https://imgur.com/NpYSNW7.png)
+  ### ![Imgur](https://imgur.com/a/ohPB9xs)
   ## Contributing
   ### Thomas Maher
   ## Link
