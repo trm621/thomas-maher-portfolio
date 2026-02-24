@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "CyberpunkFont";
+  src: url("../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RoboFont";
+  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card {
+  padding: 15px;
+  text-align: -webkit-center;
+  color: white;
+}
+
+img {
+  max-width: 700px;
+}
+
+.project-name {
+  font-family: "CyberpunkFont";
+  font-size: 50px;
+}
+
+p,
+.linkText {
+  font-family: "RoboFont";
+  list-style: none;
+  width: 60%;
+  font-size: 25px;
+}
