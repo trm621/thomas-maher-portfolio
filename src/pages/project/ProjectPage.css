@@ -42,3 +42,7 @@ p,
 a {
   text-decoration: none;
 }
+
+.linkText:hover {
+  color: red
+}

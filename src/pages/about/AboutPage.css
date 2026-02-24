@@ -19,6 +19,7 @@
   color: aliceblue;
   text-align: center;
   font-size: 50px;
+  pointer-events: none;
 }
 
 .about {

@@ -13,6 +13,7 @@
   font-size: 30px;
   text-decoration: none;
   list-style: none;
+  pointer-events: none;
 }
 
 .resume {
