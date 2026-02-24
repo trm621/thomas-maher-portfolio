@@ -1,4 +1,4 @@
-import respdf from '../assets/ThomasMaherResume.pdf'
+import respdf from '../../assets/ThomasMaherResume.pdf'
 
 function Resume() {
     return (

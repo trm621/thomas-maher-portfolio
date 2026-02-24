@@ -1,6 +1,9 @@
 import { useEffect } from "react";
-import { capitalizeFirstLetter } from "../utils/helpers";
-import './NavBar.css'
+import "./NavBar.css";
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 function Navigation(props) {
   const {

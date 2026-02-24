@@ -1,11 +1,11 @@
 import { useState } from "react";
-import TrailTalk from '../assets/images/project-image-4.jpg'
-import BeachBlog from '../assets/images/main-project-image.jpg'
-import BingeBuddy from '../assets/images/project-image-1.jpg'
-import PasswordGenerator from '../assets/images/project-image-5.png'
-import BudgetTracker from '../assets/images/project-image-7.png'
-import ReadMeGenerator from '../assets/images/project-image-6.jpg'
-import SocialMediaBackend from '../assets/images/project-image-8.jpg'
+import TrailTalk from '../../assets/images/project-image-4.jpg'
+import BeachBlog from '../../assets/images/main-project-image.jpg'
+import BingeBuddy from '../../assets/images/project-image-1.jpg'
+import PasswordGenerator from '../../assets/images/project-image-5.png'
+import BudgetTracker from '../../assets/images/project-image-7.png'
+import ReadMeGenerator from '../../assets/images/project-image-6.jpg'
+import SocialMediaBackend from '../../assets/images/project-image-8.jpg'
 import './ProjectPage.css'
 
 function Project() {

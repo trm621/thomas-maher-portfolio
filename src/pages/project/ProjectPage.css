@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CyberpunkFont";
-  src: url("../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
+  src: url("../../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "RoboFont";
-  src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf")
+  src: url("../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;

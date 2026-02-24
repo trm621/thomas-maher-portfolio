@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "CyberpunkFont";
+  src: url("../../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contact {
+  text-align: center;
+  color:white;
+  padding: 40px;
+  font-family: "CyberpunkFont";
+}
+
+.contactInfo {
+    color: white;
+    text-decoration: none;
+}
+
+.contactInfo:hover {
+  color: red;
+}

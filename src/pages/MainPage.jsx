@@ -1,10 +1,33 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import Navigation from "../components/NavBar";
-import CurrentPage from "./CurrentPage";
-import "./HomePage.css";
+import About from "./about/AboutPage";
+import Project from "./project/ProjectPage";
+import Contact from "./contact/ContactPage";
+import Resume from "./resume/ResumePage";
+import "./MainPage.css";
 
-export function HomePage() {
+const CurrentPage = ({ currentCategory }) => {
+  const pageswitch = () => {
+    switch (currentCategory.name) {
+      case "about":
+        return <About></About>;
+      case "projects":
+        return <Project></Project>;
+      case "contact":
+        return <Contact></Contact>;
+      case "resume":
+        return <Resume></Resume>;
+      default:
+        return <About></About>;
+    }
+  };
+  return <div>{pageswitch()}</div>;
+};
+
+export default CurrentPage;
+
+export function MainPage() {
   const [categories] = useState([
     {
       name: "about",
@@ -25,8 +48,8 @@ export function HomePage() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
   const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <>
       <Header />
