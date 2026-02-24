@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "CyberpunkFont";
+  src: url("../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  padding: 140px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/images/ofas72yn1kt01.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+  z-index: 0;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+.header h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  font-family: "CyberpunkFont";
+}
