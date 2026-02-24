@@ -12,6 +12,6 @@
   ## Screenshot
   ### ![Imgur](https://imgur.com/Gdk2aCG.png)
   ## Link
-  ### https://pure-sierra-64144.herokuapp.com/
+  ### https://trm621.github.io/thomas-maher-portfolio/
   ## Questions
   ### <a href="https://www.github.com/trm621">trm621</a>
