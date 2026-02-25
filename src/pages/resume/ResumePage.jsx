@@ -31,7 +31,7 @@ function Resume() {
       <h1 className="welcomeAbout">Key Skills</h1>
       <ol className="skillList">
         {skills.map((skill) => (
-          <li>{skill}</li>
+          <li className="skill">{skill}</li>
         ))}
       </ol>
     </div>

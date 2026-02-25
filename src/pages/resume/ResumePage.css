@@ -7,26 +7,18 @@
 }
 
 .skillList {
-  color: white;
   text-align: center;
-  font-family: "RoboFont";
-  font-size: 30px;
-  text-decoration: none;
+  font-size: clamp(20px, 4vw, 30px);
   list-style: none;
+  text-decoration: none;
   pointer-events: none;
+  padding: 0;
+  margin: 20px 0;
 }
 
-.resume {
-  margin-top: 30px;
+.skill {
   text-align: center;
   color: white;
   font-family: "RoboFont";
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-.resume a:hover {
-  color: red;
+  padding: 10px;
 }

@@ -12,12 +12,23 @@ function Contact() {
         </a>
       </h2>
       <h2>
+        LinkedIn:{" "}
         <a
           className="contactInfo"
           href="https://www.linkedin.com/in/tom-maher-0b3615217/"
           target="_blank"
         >
-          LinkedIn
+          Tom Maher
+        </a>
+      </h2>
+      <h2>
+        Github:{" "}
+        <a
+          className="contactInfo"
+          href="https://www.github.com/trm621"
+          target="_blank"
+        >
+          trm621
         </a>
       </h2>
     </section>

@@ -1,4 +1,6 @@
-/* ========== Base Styles (Mobile First) ========== */
+/* =========================================
+   GLOBAL RESET
+========================================= */
 
 * {
   box-sizing: border-box;
@@ -12,6 +14,37 @@ html {
 body {
   margin: 0;
   font-family: inherit;
+  background-color: black; /* assuming dark cyberpunk theme */
+  color: white;
+}
+
+/* =========================================
+   CUSTOM FONTS
+========================================= */
+
+@font-face {
+  font-family: "CyberpunkFont";
+  src: url("../../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RoboFont";
+  src: url("../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* =========================================
+   GLOBAL ELEMENTS
+========================================= */
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -19,15 +52,54 @@ h1 {
 }
 
 p {
+  font-family: "RoboFont";
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.navBar li {
+  list-style: none;
+  padding: 5px;
   font-size: 20px;
 }
+
+.navBar a {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.navBar a:hover {
+  color: red;
+}
+
+/* =========================================
+   HERO / WELCOME
+========================================= */
 
 .welcome-banner {
   text-align: left;
 }
 
+/* =========================================
+   ABOUT SECTION
+========================================= */
+
 .about {
-  font-size: 25px;
   margin-top: 35px;
   padding: 20px;
   display: flex;
@@ -39,37 +111,61 @@ p {
   align-self: center;
 }
 
+/* =========================================
+   PROJECTS
+========================================= */
+
+.card {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.project-name {
+  font-family: "CyberpunkFont";
+  font-size: 32px;
+}
+
+.linkText {
+  font-family: "RoboFont";
+  width: 100%;
+  font-size: 18px;
+}
+
+.linkText:hover {
+  color: red;
+}
+
 .img-thumbnail {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   max-width: 350px;
   padding: 20px;
 }
 
-.card {
-  font-size: 20px;
+/* =========================================
+   RESUME SECTION
+========================================= */
+
+.resume {
+  font-family: "CyberpunkFont";
+  margin-top: 30px;
+  text-align: center;
+  font-size: clamp(18px, 3vw, 24px);
+  padding: 10px;
 }
 
-.navBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.navBar li {
-  font-size: 20px;
-  padding: 5px;
-  list-style: none;
-}
-
-.navBar a {
+.resume a {
   text-decoration: none;
-  color: aliceblue;
-  font-weight: bold;
+  color: skyblue;
+  transition: color 0.3s ease;
 }
 
-/* Tablet & Up (750px+) */
+.resume a:hover {
+  color: red;
+}
+
+/* =========================================
+   TABLET (750px+)
+========================================= */
 
 @media (min-width: 750px) {
   header {
@@ -86,9 +182,20 @@ p {
   .navBar li {
     font-size: 30px;
   }
+
+  .project-name {
+    font-size: 42px;
+  }
+
+  p,
+  .linkText {
+    font-size: 20px;
+  }
 }
 
-/*  Desktop (1025px+) */
+/* =========================================
+   DESKTOP (1025px+)
+========================================= */
 
 @media (min-width: 1025px) {
   .about {
@@ -103,5 +210,18 @@ p {
 
   .navBar li {
     font-size: 40px;
+  }
+
+  .project-name {
+    font-size: 50px;
+  }
+
+  p,
+  .linkText {
+    font-size: 22px;
+  }
+
+  .img-thumbnail {
+    max-width: 700px;
   }
 }
