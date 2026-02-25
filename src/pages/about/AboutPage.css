@@ -32,14 +32,11 @@
   text-align: left;
   width: 95%;
   font-family: "RoboFont";
-  padding: 15px;
   font-size: 25px;
   color: white;
 }
 
 .profile-pic {
-  margin-top: 45px;
-  width: 300px;
   height: 300px;
   margin: 30px;
 }
