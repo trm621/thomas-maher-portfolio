@@ -38,7 +38,7 @@ function Project() {
       description:
         "An application that utilizes service workers and MongoDB to help manage your budget and spending.",
       imgfile: BudgetTracker,
-      link: "https://fathomless-reaches-87217.herokuapp.com/",
+      link: "https://budget-tracker-duqf.onrender.com",
       github: "https://github.com/trm621/budget-tracker",
     },
     {
