@@ -53,7 +53,7 @@ function Project() {
       name: "Social Media Backend",
       description: "A fully functioning back-end for a social media platform.",
       imgfile: SocialMediaBackend,
-      link: "https://drive.google.com/file/d/1MuStxK9iuNjOXKDGQ_wu6186ACuk0QBy/view",
+      link: "https://drive.google.com/file/d/1C7LYEPqrVAdgQB5yhCVViQA1md7CZTnq/view?usp=drive_link",
       github: "https://github.com/trm621/nosql-social-media",
     },
   ]);
