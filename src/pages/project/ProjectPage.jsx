@@ -46,7 +46,7 @@ function Project() {
       description:
         "A Node application used to generate a professional ReadMe file.",
       imgfile: ReadMeGenerator,
-      link: "https://drive.google.com/file/d/16rbgJeUkvjxtn3FyfM9znjDt2WeErmDd/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1X9YGRnRvvCxK1wkib_DGtzKgPA6pZWEN/view?usp=drive_link",
       github: "https://github.com/trm621/readme-buddy",
     },
     {
