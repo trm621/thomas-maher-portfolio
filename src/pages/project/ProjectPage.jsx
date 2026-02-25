@@ -15,7 +15,7 @@ function Project() {
         "A social media platfrom to share your experiences at national parks with others from around the world!",
       imgfile: TrailTalk,
       link: "https://pacific-shelf-58337.herokuapp.com/",
-      github: "https://github.com/trm621/national-park-social-app",
+      github: "https://national-park-social-app-afnj.onrender.com/",
     },
     {
       name: "Binge Buddy",
@@ -38,7 +38,7 @@ function Project() {
       description:
         "An application that utilizes service workers and MongoDB to help manage your budget and spending.",
       imgfile: BudgetTracker,
-      link: "https://fathomless-reaches-87217.herokuapp.com/",
+      link: "https://budget-tracker-duqf.onrender.com",
       github: "https://github.com/trm621/budget-tracker",
     },
     {
