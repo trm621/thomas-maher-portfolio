@@ -10,14 +10,16 @@ function About() {
         <div id="about">
           <div className="my-2">
             <p className="blurb">
-              Hi there! My name is Thomas Maher, but you can call me Tommy. I'm
-              a full stack web developer operating out of Norwalk, CT. I love
-              gaming, watching scary movies, playing Dungeons and Dragons, and
-              making people laugh. I spent the last few years at Yahoo Inc.
-              working on their Store and DSP advertising platforms. Although
-              relatively new to this field, I've really come to love it. Moving
-              around data makes me feel like a wizard and that's pretty cool in
-              my eyes. Let's work together! See my work in the projects section!
+              Hi there! My name is Thomas Maher, but my friends call me Tommy.
+              I'm a full stack web developer operating out of Norwalk, CT. I
+              have a BA in Creative Writing from Ithaca College (go Bombers!),
+              but over the last few years I’ve switched from writing stories to
+              writing computer code. At Yahoo Inc., I worked on the Store and
+              DSP advertising platforms, contributing to large-scale frontend
+              systems. Although relatively new to this field, I've really
+              come to love it. Moving around data makes me feel like a wizard
+              and that's pretty cool in my eyes. Let's work together! See my
+              work in the projects section!
             </p>
           </div>
         </div>
