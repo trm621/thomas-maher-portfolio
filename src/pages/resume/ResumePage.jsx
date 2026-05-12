@@ -1,4 +1,4 @@
-import respdf from "../../assets/ThomasMaherResume2025.pdf";
+import respdf from "../../assets/ThomasMaherResume2026.pdf";
 import "./ResumePage.css";
 
 const skills = [
